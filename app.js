@@ -1,5 +1,5 @@
 let randomNumberList = [];
-let limitNumber = 10;
+let limitNumber = 100;
 let secretNumber = generateRandomNumber();
 let attempts = 1;
 
@@ -12,7 +12,7 @@ function showText(tag, text) {
 
 function showInitialMessage() {
   showText("h1", "Jogo do número secreto");
-  showText("p", "Escolha um número entre 1 e 10");
+  showText("p", "Escolha um número entre 1 e 100");
 }
 
 showInitialMessage();
